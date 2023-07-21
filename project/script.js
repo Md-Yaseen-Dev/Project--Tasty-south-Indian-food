@@ -134,7 +134,7 @@ function updateAll() {
         let qty = document.querySelector(".cart-quantity").value
 
         total += (price * qty);
-        product.querySelector('.cart-amt').innerText = "Rs." + (price * qty*10);
+        product.querySelector('.cart-amt').innerText = "Rs." + (price * qty);
 
     })
 
